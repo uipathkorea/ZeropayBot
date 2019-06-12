@@ -4,7 +4,7 @@
     <x:Property Name="in_RefDate" Type="InArgument(x:String)" />
     <x:Property Name="io_CurPage" Type="InOutArgument(x:Int32)" />
     <x:Property Name="out_TotalPage" Type="OutArgument(x:Int32)" />
-    <x:Property Name="ProgressDT" Type="InArgument(sd:DataTable)" />
+    <x:Property Name="in_ProgressDT" Type="InArgument(sd:DataTable)" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
@@ -329,7 +329,7 @@
                                   <ui:InvokeWorkflowFile.Arguments>
                                     <OutArgument x:TypeArguments="x:Boolean" x:Key="out_AlreadyAnswered">[Answered]</OutArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="in_Question">[Subject]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_Url">https://kin.naver.com/qna/detail.nhn?d1id=1&amp;dirId=1060115&amp;docId=323193296&amp;qb=7KCc66Gc7Y6Y7J20&amp;enc=utf8&amp;section=kin&amp;rank=1&amp;search_sort=0&amp;spq=1</InArgument>
+                                    <InArgument x:TypeArguments="sd:DataTable" x:Key="in_ProgressDT">[in_ProgressDT]</InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
