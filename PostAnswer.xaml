@@ -122,7 +122,7 @@
                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3ab8a9da5d32101e3ee59d3d50f333d2" Selector="&lt;webctrl id='answerWriteButton' tag='A' aaname='답변하기' /&gt;" WaitForReady="INTERACTIVE" />
                             </ui:Click.Target>
                           </ui:Click>
-                          <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 300 milliseconds" Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="344.8,22.4" sap2010:WorkflowViewState.IdRef="Delay_1">
+                          <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 300 milliseconds" Duration="00:00:01.3000000" sap:VirtualizedContainerService.HintSize="344.8,22.4" sap2010:WorkflowViewState.IdRef="Delay_1">
                             <TextExpression.Namespaces>
                               <sco:Collection x:TypeArguments="x:String">
                                 <x:String>System.Activities</x:String>
