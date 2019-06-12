@@ -257,7 +257,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="cc200dac8a0ad4ca52eec75d0d7b6423" Selector="&lt;wnd app='iexplore.exe' cls='#32770' title='Windows Internet Explorer' /&gt;&lt;wnd aaname='Windows Internet Explorer' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Leave this page' cls='Button' omit:title='&amp;amp;Leave this page' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="cc200dac8a0ad4ca52eec75d0d7b6423" Selector="&lt;wnd app='iexplore.exe' cls='#32770' title='Windows Internet Explorer' /&gt;&lt;wnd aaname='Windows Internet Explorer' cls='DirectUIHWND' /&gt;&lt;wnd omit:aaname='Leave this page' cls='Button' omit:title='&amp;amp;Leave this page' idx='1' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
       </ui:Click.Target>
     </ui:Click>
   </Sequence>
